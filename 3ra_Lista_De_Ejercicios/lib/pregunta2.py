@@ -1,0 +1,13 @@
+def funcionesString(texto="Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen."):
+    print(f"\n---Funcion split()---")
+    print(texto.split())
+    print(f"\n---Funcion join()---")
+    print("_".join(texto))
+    print(f"\n---Funcion count()---")
+    print(f"La letra 'a' se encuentra en el texto ingresado {texto.count('a')} veces.")
+    print(f"\n---Funcion find()---")
+    print(f"La 1era letra 'a' se encuentra en la posicion {texto.find('a')}.")
+    print(f"\n---Funcion uppercase()---")
+    print(texto.upper())
+    print(f"\n---Funcion lowercase()---")
+    print(texto.lower())
